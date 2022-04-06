@@ -29,14 +29,16 @@
             android:text="Profil" />
     </com.google.android.material.tabs.TabLayout>
 
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="408dp"
+        android:layout_height="707dp"
+        tools:layout_editor_absoluteY="24dp" />
+
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
+        android:id="@+id/basecan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
-    
-    <androidx.viewpager.widget.ViewPager
-        android:layout_width=""
-        android:layout_height=""
+
 </androidx.constraintlayout.widget.ConstraintLayout>
